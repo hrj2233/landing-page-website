@@ -1,0 +1,153 @@
+body {
+	height: 100vh;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header,
+.main,
+.footer {
+	background-color: #1f2937;
+}
+
+.header .container {
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	padding: 10px;
+}
+.header h1 {
+	margin: 0;
+	color: #f9faf8;
+	font-size: 24px;
+}
+.header ul {
+	display: flex;
+	gap: 50px;
+}
+.header a {
+	color: #e5e7eb;
+}
+
+.main {
+	padding: 100px;
+}
+
+.main .container {
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.main .left-container {
+	width: 500px;
+}
+.main h2 {
+	font-size: 48px;
+	font-weight: bold;
+	color: #f9faf8;
+	margin-bottom: 0;
+}
+.main p {
+	margin-top: 0;
+	color: #e5e7eb;
+	font-size: 18px;
+}
+.main button {
+	color: white;
+	background-color: #3882f6;
+	padding: 10px 30px;
+	border: none;
+	border-radius: 10px;
+}
+.main img {
+	width: 500px;
+	height: 250px;
+}
+
+.info-section {
+	padding: 100px;
+	text-align: center;
+}
+.info-section h2 {
+	font-size: 36px;
+	font-weight: bold;
+	color: #1f2937;
+}
+.info-section .container {
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	gap: 50px;
+}
+.info-section p {
+	color: gray;
+}
+.info-section img {
+	width: 200px;
+	height: auto;
+}
+
+.quote {
+	padding: 100px;
+	background-color: #e5e7eb;
+	color: #1f2937;
+	font-size: 36px;
+	font-weight: 300;
+	font-style: italic;
+}
+.quote blockquote {
+	width: 1200px;
+	margin: 0 auto;
+}
+.quote span {
+	width: 800px;
+	display: block;
+	margin-left: auto;
+	font-weight: bold;
+}
+
+.sign-up {
+	padding: 100px;
+	flex: 1;
+}
+.sign-up .container {
+	box-sizing: border-box;
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #3882f6;
+	color: white;
+	padding: 25px 200px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.sign-up button {
+	padding: 10px 30px;
+	display: block;
+	color: white;
+	background-color: #3882f6;
+	border: 2px solid white;
+	border-radius: 10px;
+}
+
+.footer {
+	padding: 30px;
+	text-align: center;
+	color: white;
+}
